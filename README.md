@@ -15,7 +15,7 @@ This config is supposed to work with [XO](https://github.com/sindresorhus/xo) or
 ## Install
 
 ```bash
-yarn add  -D eslint-config-sherry
+yarn add -D eslint-config-sherry
 # OR: npm install -D eslint eslint-config-sherry
 ```
 

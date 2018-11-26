@@ -6,6 +6,9 @@
   "scripts": {
     "test": "eslint index.js"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "eslintConfig": {
     "extends": [
       "xo",
