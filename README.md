@@ -65,3 +65,8 @@ It uses [eslint-plugin-markdown](https://github.com/eslint/eslint-plugin-markdow
   }
 }
 ```
+
+## Author
+
+**Sherry** © <img src="https://avatars2.githubusercontent.com/u/45230194?s=14"> [Sherry Team](https://github.com/sherry), Released under the [MIT](./LICENSE) License.<br>
+Authored and maintained by ULIVZ with help from contributors ([list](https://github.com/sherry/eslint-config-sherry/contributors)).
