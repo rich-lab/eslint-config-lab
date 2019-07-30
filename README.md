@@ -1,5 +1,7 @@
 # ESLint config for 🍷Sherry🍷
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ulivz/eslint-config-sherry.svg)](https://greenkeeper.io/)
+
 <img src="./media/vermouth.jpeg" alt="sherry" width="300">
 
 This config is supposed to work with [XO](https://github.com/sindresorhus/xo) or [eslint-config-xo](https://github.com/sindresorhus/eslint-config-xo).
