@@ -1,7 +1,7 @@
 {
-  "name": "eslint-config-sherry",
+  "name": "eslint-config-lab",
   "version": "0.0.1",
-  "description": "eslint config for sherry",
+  "description": "eslint config for lab",
   "main": "index.js",
   "scripts": {
     "lint": "eslint index.js --fix"
@@ -20,7 +20,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sherry/eslint-config-sherry.git"
+    "url": "git+https://github.com/richlab/eslint-config-lab.git"
   },
   "keywords": [
     "eslint",
@@ -29,11 +29,11 @@
   "author": "ULIVZ <chl814@foxmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/egoist/eslint-config-sherry/issues"
+    "url": "https://github.com/richlab/eslint-config-lab/issues"
   },
-  "homepage": "https://github.com/egoist/eslint-config-sherry#readme",
+  "homepage": "https://github.com/richlab/eslint-config-lab#readme",
   "dependencies": {
-    "eslint-plugin-markdown": "^1.0.0-rc.1"
+    "eslint-plugin-markdown": "^1.0.2"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
