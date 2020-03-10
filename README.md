@@ -1,6 +1,4 @@
-# ESLint config for 🍷Sherry🍷
-
-<img src="./media/vermouth.jpeg" alt="sherry" width="300">
+# ESLint config for 🍷Lab🍷
 
 This config is supposed to work with [XO](https://github.com/sindresorhus/xo) or [eslint-config-xo](https://github.com/sindresorhus/eslint-config-xo).
 
@@ -15,8 +13,8 @@ This config is supposed to work with [XO](https://github.com/sindresorhus/xo) or
 ## Install
 
 ```bash
-yarn add -D eslint-config-sherry
-# OR: npm install -D eslint eslint-config-sherry
+yarn add -D eslint-config-lab
+# OR: npm install -D eslint eslint-config-lab
 ```
 
 ## Usage
@@ -27,7 +25,7 @@ In ESLint:
 /* package.json */
 {
   "eslintConfig": {
-    "extends": ["xo/esnext", "sherry"]
+    "extends": ["xo/esnext", "lab"]
   }
 }
 ```
@@ -38,18 +36,7 @@ Or in XO:
 /* package.json */
 {
   "xo": {
-    "extends": "sherry"
-  }
-}
-```
-
-### Use Prettier
-
-```js
-/* package.json */
-{
-  "xo": {
-    "extends": "sherry/prettier"
+    "extends": "lab"
   }
 }
 ```
