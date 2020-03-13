@@ -58,6 +58,14 @@ module.exports = {
      */
     'no-use-before-define': ['error', { functions: false, classes: false }],
     /**
+     * Disallow await inside of loops, ref: https://eslint.org/docs/rules/no-await-in-loop
+     */
+    'no-await-in-loop': ['warn'],
+    /**
+     * Disallow specific global variables, ref: https://eslint.org/docs/rules/no-restricted-globals
+     */
+    'no-restricted-globals': ['warn'],
+    /**
      * enforce a maximum line length, ref: https://eslint.org/docs/rules/max-len
      */
     'max-len': ['warn', { code: 120, tabWidth: 2 }],
