@@ -7,7 +7,7 @@ module.exports = {
     jest: true,
   },
   extends: [
-    'airbnb',
+    'airbnb-base',
     'plugin:react/recommended',
   ],
   plugins: [
@@ -73,10 +73,10 @@ module.exports = {
      * enforce consistent line breaks inside braces, ref: https://eslint.org/docs/rules/object-curly-newline
      */
     'object-curly-newline': ['error', {
-      ObjectExpression: { minProperties: 4, multiline: true, consistent: true },
-      ObjectPattern: { minProperties: 4, multiline: true, consistent: true },
-      ImportDeclaration: { minProperties: 4, multiline: true, consistent: true },
-      ExportDeclaration: { minProperties: 4, multiline: true, consistent: true },
+      ObjectExpression: { multiline: true, consistent: true },
+      ObjectPattern: { multiline: true, consistent: true },
+      ImportDeclaration: {  multiline: true, consistent: true },
+      ExportDeclaration: { multiline: true, consistent: true },
     }],
     /**
      * enforce placing object properties on separate lines,
