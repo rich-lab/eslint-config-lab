@@ -242,13 +242,5 @@ module.exports = {
      * Validate JSX indentation ref: https://github.com/yannickcr/eslint-plugin-react/blob/HEAD/docs/rules/jsx-indent.md
      */
     'react/jsx-indent': ['warn'],
-    /**
-     * ref: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/click-events-have-key-events.md
-     */
-    'jsx-a11y/click-events-have-key-events': ['warn'],
-    /**
-     * https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/no-static-element-interactions.md
-     */
-    'jsx-a11y/no-static-element-interactions': ['warn'],
   },
 }
