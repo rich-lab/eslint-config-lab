@@ -13,6 +13,7 @@ module.exports = {
   plugins: [
     'markdown',
     'react',
+    'react-hooks'
   ],
   parserOptions: {
     ecmaFeatures: {
