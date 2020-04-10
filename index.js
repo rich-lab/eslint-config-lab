@@ -6,9 +6,12 @@ module.exports = {
     node: true,
     jest: true,
   },
+  parser: '@typescript-eslint/parser',
   extends: [
     'airbnb-base',
     'plugin:react/recommended',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:financial/recommended'
   ],
   plugins: [
     'markdown',
@@ -76,7 +79,7 @@ module.exports = {
     'object-curly-newline': ['error', {
       ObjectExpression: { multiline: true, consistent: true },
       ObjectPattern: { multiline: true, consistent: true },
-      ImportDeclaration: {  multiline: true, consistent: true },
+      ImportDeclaration: { multiline: true, consistent: true },
       ExportDeclaration: { multiline: true, consistent: true },
     }],
     /**
