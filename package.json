@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-lab",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "eslint config for lab",
   "main": "index.js",
   "scripts": {
