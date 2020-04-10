@@ -24,6 +24,11 @@ module.exports = {
     },
     ecmaVersion: 2018,
   },
+  settings: {
+    "import/resolver": {
+      typescript: {} // this loads <rootdir>/tsconfig.json to eslint
+    },
+  },
   rules: {
     /**
      * to allow: if (false) return
