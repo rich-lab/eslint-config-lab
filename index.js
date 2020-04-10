@@ -244,6 +244,20 @@ module.exports = {
      */
     'import/order': ['warn'],
     /**
+     * https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/extensions.md
+     * ref: https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/extensions.md
+     */
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never"
+      }
+    ],
+    /**
      * Restrict file extensions that may contain JSX, ref: https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-filename-extension.md
      */
     'react/jsx-filename-extension': ['warn'],
