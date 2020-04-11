@@ -258,12 +258,34 @@ module.exports = {
       }
     ],
     /**
-     * Restrict file extensions that may contain JSX, ref: https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-filename-extension.md
+     * Restrict file extensions that may contain JSX
+     * ref: https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-filename-extension.md
      */
     'react/jsx-filename-extension': ['warn'],
     /**
-     * Validate JSX indentation ref: https://github.com/yannickcr/eslint-plugin-react/blob/HEAD/docs/rules/jsx-indent.md
+     * Validate JSX indentation
+     * ref: https://github.com/yannickcr/eslint-plugin-react/blob/HEAD/docs/rules/jsx-indent.md
      */
     'react/jsx-indent': ['warn'],
+    /**
+     * Bans “// @ts-ignore” comments from being used
+     * ref: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/ban-ts-ignore.md
+     */
+    '@typescript-eslint/ban-ts-ignore': 0,
+    /**
+     * Require PascalCased class and interface names
+     * ref: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/class-name-casing.md
+     */
+    '@typescript-eslint/class-name-casing': 0,
+    /**
+     * Require that interface names should or should not prefixed with I
+     * ref: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/interface-name-prefix.md
+     */
+    '@typescript-eslint/interface-name-prefix': 0,
+    /**
+     * Disallow the declaration of empty interfaces
+     * ref: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-empty-interface.md
+     */
+    "@typescript-eslint/no-empty-interface": 0
   },
 }
