@@ -45,7 +45,7 @@ module.exports = {
     /**
      * disable semi.
      */
-    semi: ['error', 'never'],
+    semi: 'error',
     /**
      * disallow the use of console, https://eslint.org/docs/rules/no-console
      */
