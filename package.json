@@ -4,7 +4,9 @@
   "description": "eslint config for lab",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint index.js --fix"
+    "lint": "eslint index.js --fix",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "publishConfig": {
     "access": "public"
@@ -41,10 +43,12 @@
     "@typescript-eslint/parser": "^2.27.0",
     "@typescript-eslint/eslint-plugin": "^2.27.0",
     "eslint-plugin-financial": "^0.1.0",
-    "eslint-import-resolver-typescript": "^2.0.0"
+    "eslint-import-resolver-typescript": "^2.0.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
     "eslint-config-xo": "^0.29.1"
-  }
+  },
+  "snyk": true
 }
