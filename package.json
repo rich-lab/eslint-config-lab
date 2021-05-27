@@ -33,7 +33,7 @@
   },
   "homepage": "https://github.com/richlab/eslint-config-lab#readme",
   "dependencies": {
-    "eslint-plugin-markdown": "^1.0.2",
+    "eslint-plugin-markdown": "^2.2.0",
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-plugin-react": "^7.14.3",
     "eslint-plugin-react-hooks": "^2.5.0",
